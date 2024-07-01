@@ -56,6 +56,7 @@ def make_spritesheet (mastername):
     master = master.convert('RGB')
     master.save(mastername, transparency=0)
     print ( 'saved!' )
+    return (int(master_width/image_width), int(master_height/image_height))
 
 if __name__ == '__main__':
     make_spritesheet(sys.argv[1] if 1 < len(sys.argv) else None)

@@ -26,5 +26,7 @@ def split (gif):
         print('done.')
         pass
 
+    return frameIdx
+
 if __name__ == '__main__':
     split(sys.argv[1])
