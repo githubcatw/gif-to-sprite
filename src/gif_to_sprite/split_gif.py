@@ -8,7 +8,8 @@ import sys
 from PIL import Image
 
 def split (gif):
-    gif = gif[0]
+    if type(gif) == list:
+        gif = gif[0]
 
     print('%s will be split...' % gif)
 

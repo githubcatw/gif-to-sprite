@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "gif-to-sprite"
-version = "0.2"
+version = "0.2.1"
 authors = [
   { name="githubcatw", email="17374742+githubcatw@users.noreply.github.com" },
 ]
