@@ -8,7 +8,7 @@ import os
 from PIL import Image
 
 def split (gif):
-    gif = sys.argv[1]
+    gif = gif[0]
 
     print('%s will be split...' % gif)
 
